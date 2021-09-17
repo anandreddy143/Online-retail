@@ -6,7 +6,7 @@ services:
                dockerfile: Dockerfile
        container_name: php_app
        volumes:
-          - ./php/online-shopping-system:/var/www/html/
+          - ./php/online-shopping-system:/var/www/
        depends_on: 
          - db  
        ports:
