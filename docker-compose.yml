@@ -19,4 +19,4 @@ services:
           volumes:
              - ./php/online-shopping-system/database/onlineshop.sql:/docker-entrypoint-initdb.d/onlineshop.sql
           ports:
-           - 6033:3306
+           - 6034:3308
