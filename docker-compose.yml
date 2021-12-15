@@ -10,7 +10,7 @@ services:
        depends_on: 
          - db  
        ports:
-         - 8090:80
+         - 8080:90
   db:
           container_name: mysql2
           image: mysql:latest
